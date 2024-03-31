@@ -15,7 +15,7 @@ namespace tpmodul7_kelompok_05
             public string name { get; set; }
         }
 
-        internal class KuliahMahasiswa_1302220104
+        internal class Kuliahmahasiswa_1302223107
         {
             public List<MataKuliah> courses { get; set; }
 
@@ -23,7 +23,7 @@ namespace tpmodul7_kelompok_05
             {
                 string filePath = "D:\\Fachry\\Kuliah\\Praktikum KPL\\tpmodul7_kelompok_05\\tpmodul7_kelompok_05\\tp7_2_1302223107.json";
                 string jsonContent = File.ReadAllText(filePath);
-                var kuliahMahasiswa = JsonSerializer.Deserialize<KuliahMahasiswa_1302220104>(jsonContent);
+                var kuliahMahasiswa = JsonSerializer.Deserialize<Kuliahmahasiswa_1302223107>(jsonContent);
 
 
                 Console.WriteLine("Daftar mata kuliah yang diambil:");
