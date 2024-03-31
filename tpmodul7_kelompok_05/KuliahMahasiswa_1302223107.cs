@@ -15,7 +15,7 @@ namespace tpmodul7_kelompok_05
             public string name { get; set; }
         }
 
-        internal class KuliahMahasiswa_1302220104
+        internal class Kuliahmahasiswa_1302223107
         {
             public List<MataKuliah> courses { get; set; }
 
