@@ -9,7 +9,7 @@ class Program
 
         mhs.ReadJSON();
 
-        KuliahMahasiswa_1302220104 kuliahMahasiswa = new KuliahMahasiswa_1302220104();
+        Kuliahmahasiswa_1302223107 kuliahMahasiswa = new Kuliahmahasiswa_1302223107();
         kuliahMahasiswa.ReadJson2();
 
     }
