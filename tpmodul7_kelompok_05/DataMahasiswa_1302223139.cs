@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace tpmodul7_kelompok_05
 {
-    internal class Datamahasiswa_1302223107
+    internal class DataMahasiswa_1302223139
     {
         public class Nama
         {
@@ -20,11 +20,11 @@ namespace tpmodul7_kelompok_05
 
         public void ReadJSON()
         {
-            string filePath = "D:\\Fachry\\Kuliah\\Praktikum KPL\\tpmodul7_kelompok_05\\tpmodul7_kelompok_05\\tp7_1_1302223107.json";
+            string filePath = "D:\\tpmodul7_kelompok_05\\tpmodul7_kelompok_05\\tp7_1_1302223139.json";
 
             string jsonText = File.ReadAllText(filePath);
 
-            Datamahasiswa_1302223107 dataMahasiswa = JsonSerializer.Deserialize<Datamahasiswa_1302223107>(jsonText);
+            DataMahasiswa_1302223139 dataMahasiswa = JsonSerializer.Deserialize<DataMahasiswa_1302223139>(jsonText);
 
             Console.WriteLine($"Nama {dataMahasiswa.nama.depan} {dataMahasiswa.nama.belakang} dengan NIM {dataMahasiswa.nim} dari Fakultas {dataMahasiswa.fakultas}");
         }
